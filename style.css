@@ -1,0 +1,184 @@
+a{
+    color: black;
+    font-weight: 600;
+}
+
+a:hover{
+  color:rgb(207, 184, 143) ;
+}
+
+h3,h2,p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#capa {
+    background-image: url(img/capa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#titulo {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo p {
+    color: rgb(207, 184, 143);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+}
+
+#titulo h1 {
+    
+    font-size: 100px;
+
+}
+.capa2{
+    background-image: url(img/capa-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.row {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+ 
+}
+
+.row h1 {
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(214, 164, 77);
+}
+
+.row h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.row p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.row #btn {
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.row #btn:hover {
+    background-color: rgba(0, 0, 0, 0.671);
+    transition: all .4s;
+}
+
+.row #horario {
+    background-image: url(img/cafeteria-2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#horario p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+} */
+
+/* cardapio */
+div#cardapio,.row{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#cardapio h1{
+    color:rgb(214, 164, 77) ;
+    font-size: 45px;
+}
+
+#cardapio h3{
+    color: rgb(214, 164, 77);
+    font-weight: 900;
+}
+
+.capa3{
+    background-color: rgb(250, 244, 235);
+}
+
+.capa4{
+    background-image: url(img/capa-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#happy{
+    background-image: url(img/happy.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.capa-footer{
+    background-color: rgba(0, 0, 0, 0.938);
+}
+.capa-footer p{
+    color: white;
+}
